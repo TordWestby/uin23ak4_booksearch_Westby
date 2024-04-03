@@ -8,6 +8,7 @@ import Home from './components/home.jsx';
 import Browse from './components/browse.jsx';
 import Soke from './components/soke.jsx';
 
+
 function App() {
   return (
     <Router>
