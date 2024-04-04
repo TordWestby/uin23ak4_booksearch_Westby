@@ -1,18 +1,14 @@
-import react from 'react';
-import { useState } from 'react';
+import React from 'react';
+import BoxLayout from './boxlayout.jsx';
 
 function Home() {
     return (
         <div className='main-content'>
-            <div className='boxes'>
-                <h1>Bok navn:</h1>
-                <p>Bok innhold:</p>
-                <p>Forfatter</p>
-                <p>Utgivelsesår</p>
-            </div>
+            <BoxLayout
+                
+            />
         </div>
-    )
+    );
 }
 
-
-export default Home
+export default Home;
