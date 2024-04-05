@@ -46,6 +46,10 @@ function SearchResults() {
 Denne koden er hovedsaklig skrevet av OpenAi sin chatbot ChatGpt 3.5 [sist oppdatert 13 Februar 2024]
 Chat logg: https://chat.openai.com/share/49febf86-3667-4322-8129-783788e383c8
 
+Kilde:
+Drini(Brukernavn), (2023, november). Open Libary Search API. openlibrary
+https://openlibrary.org/dev/docs/api/search
+
 */
 
 export default SearchResults;
