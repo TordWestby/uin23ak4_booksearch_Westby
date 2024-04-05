@@ -42,11 +42,22 @@ nav ul li a:hover {
     transition: 0.4s;  
 }
 
-
+/**/
 .boxes {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes .box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    border: 2px solid black;
 }
 
 .boxes h1 {
@@ -56,4 +67,54 @@ nav ul li a:hover {
 
 .boxes p {
     margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.boxes button{
+    background-color: #91d962;
+    width: 40px;
+    height: 30px;
+}
+
+.boxes button a {
+    color: black;
+    text-decoration: none;
+}
+/**/
+#search-styling form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+}
+
+#search-styling form input{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
+
+#search-styling form button {
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+}
+
+/**/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .warning {
+    color: red;
+    text-decoration: underline;
+    
 }
