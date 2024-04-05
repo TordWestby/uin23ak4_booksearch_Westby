@@ -1,15 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function NavBar() {
   return (
     <nav>
       <ul>
         <li>
           <Link to="/">Hjem</Link>
-        </li>
-        <li>
-          <Link to="/browse">Utforsk</Link>
         </li>
         <li>
           <Link to="/search">Søk</Link>
@@ -19,4 +16,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
