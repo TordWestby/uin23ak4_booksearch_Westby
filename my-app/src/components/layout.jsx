@@ -4,6 +4,7 @@ import NavBar from './navbar.jsx'
 import Home from './home.jsx';
 import SearchResults from './soke.jsx';
 import BookCard from './bookcard.jsx';
+import Footer from './footer.jsx';
 
 
 
@@ -19,6 +20,7 @@ function Layout() {
         </Routes>
       </div>
     </Router>
+    <Footer />
     </div>
         )    
 }

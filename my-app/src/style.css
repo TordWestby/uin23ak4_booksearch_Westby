@@ -50,6 +50,10 @@ nav ul li a:hover {
     align-items: center;
 }
 
+.boxes:last-of-type {
+    margin-bottom: 4rem;
+}
+
 .boxes .box-content {
     display: flex;
     flex-direction: column;
@@ -116,5 +120,33 @@ nav ul li a:hover {
 .main-content .warning {
     color: red;
     text-decoration: underline;
-    
+
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0;
+    font-size: 20px;
+    position: fixed;
+}
+
+
+
+footer a {
+    color: black;
+    margin: 1rem;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer #maker {
+    display: inline;
+    text-decoration: underline;
 }
